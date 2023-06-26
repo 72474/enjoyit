@@ -33,93 +33,90 @@ $(document).on('click', '#start', function(e) {
 
 var questions = [{
   question: "Which of these sports did HK never venture into as a kid?",
-  img:"assets/images/background.jpg",
   answers: ["TaeKwonDo", "Dance", "Soccer", "Tennis", "Track"],
-  correctAnswer: "Soccer"
+  correctAnswer: "Soccer", 
+  image:"assets/images/1.jpg"
 },{
-
-  question: "Andrew Garfield played Spiderman in, what Greek word does Andrew originate from",
+  question: "Andrew has Greek origins of the word for man, like Harika is derived from Sanskrit word for charm, among other origins. WHich language does the latter directly translate to the mean 'wonderful'",
+  answers: ["Hindi", "Italian", "Turkish", "Arabic",],
+  correctAnswer: "Turkish",
+  image:"assets/images/2.jpg"
+ },{
+  question: "AB proudly refuses to ever give up his Android. In Marvel comics, The Vision is an android created by:",
+  answers: ["Reed Richards", "Tony Stark", "Ultron", "Doctor Doon"],
+  correctAnswer: "Ultron",
+  image:"assets/images/3.jpg"
+ }, {
+  question: "Who composed the theme song of the last show binged by us?",
+  answers: ["Scrantones", "Cristobal Tapia De Vee", "Ramin Djawadi", "Psapp"],
+  correctAnswer: "Cristobal Tapia De Vee",
+  image:"assets/images/4.jpg"
+ },{
+  question: "The first medical drama to air on television was called 'City Hospital'. Which of the medical dramas did HK not ever binge?",
+  answers: ["The Good Doctor", "Grey's Anatomy", "Chicago Med", "House"],
+  correctAnswer: "House",
+  image:"assets/images/5.jpg"
+ },{
+  question: "Sign language was first introduced in 1817 in America. What is this image stating in sign language:",
+  answers: ["You're annoying", "I'm hungry", "I'm waiting", "You're cute"],
+  correctAnswer: "You're cute",
+  image:"assets/images/6.jpg"
+},{
+  question: "Mindy Kaling played Kelly Kapoor in the hit comedy 'The Office'. What was the show she co-created centered around the life of a first generation Indian American?",
+  answers: ["Convenience", "Always Be My Maybe", "Sex Lives of College Girls", "Never Have I Ever"],
+  correctAnswer: "Never Have I Ever", 
+  image:"assets/images/7.jpg"
+},{
+  question: "In UXD, color theory is an important component in site development. Which is one of HK's favorite colors?",
+  answers: ["Purple", "Green", "Black", "Orange", "Pink"],
+  correctAnswer: "Purple",
+  image:"assets/images/8.jpg"
+},{
+  question: "On a warm July day, the capital of which state was HK born in?",
+  answers: ["New Jersey, US", "Illinois, US", "California, US", "Connecticut, US", "Uttar Pradesh, IN"],
+  correctAnswer: "Connecticut, US",
+  image:"assets/images/9.jpg"
+},{
+  question: "Philematology is the science of kissing, which historically is thought to have originated from India. Which of the locations were some great kisses had?",
+  answers: ["McGills Pub", "Casa de AB", "That Bar in the UWS", "That time before CLE", "All of the Above"],
+  correctAnswer: "All of the Above", 
+  image:"assets/images/10.jpg"
+},{
+  question: "My Chemical Romance is a band from Newark, NJ. Who else from that area owned the building HK once had an apartment at?",
+  answers: ["Shaquille O'Neal", "Jon Bon Jovi", "Queen Latifah", "Michael B. Jordan"],
+  correctAnswer: "Shaquille O'Neal",
+  image:"assets/images/11.jpg"
+}, {
+  question: "'The Oh in Ohio' stars a few Jersey natives. Which Marvel superhero did one of them eventually star as?",
+  answers: ["Captain America", "Arrow", "Ant-Man", "Hawkeye"],
+  correctAnswer: "Ant-Man",
+  image:"assets/images/12.jpg"
+}, {
+  question: "On a personal favorite date night of HK, the MET was visited after hours. Which museum is HK's all time favorite?",
+  answers: ["MoMA", "Museum of Ice Cream", "California Academy of Science", "Smithsonian Air and Space Museum"],
+  correctAnswer: "California Academy of Science",
+  image:"assets/images/13.jpg"
+}, {
+  question: "Who is the coolest, most awesome, fun, loyal adventurous human AB will have the pleasure of getting to know?;)",
+  answers: ["HK", "Harika", "Hari", "Any and all of the Above"],
+  correctAnswer: "Any and all of the Above",
+  image:"assets/images/14.jpg"
+},{
+  question: "A lead chracter in one of HK's favorite comedy movies also authored which of the following books?",
+  answers: ["The Flash", "Are You Serious?", "I Was Kidding", "Batman"],
+  correctAnswer: "Are You Serious?",
+  image:"assets/images/15.jpg"
+}, {
+  question: "When will HK get to whisper (or possibly little scream) sweet <s>nothings</> cussings in AB's ear, as promised? (also may be met with a reward)",
+  answers: ["Tomorrow", "The Next day", "Or the day after that", "Whenever HK wants"],
+  correctAnswer: "Whenever HK wants",
+  image:"assets/images/16.jpg"
+},{
+  question: "Author and talk show host, Dr. Gary Chapman discussed the concepts of the 5 love languages. ",
   answers: ["", "", "", ""],
   correctAnswer: "",
-},{
-  question: "AB refuses to ever give up his Android, In Marvel The Vision is an android created by:",
-  answers: ["Reed Richards", "Tony Stark", "Ultron", "Doctor Doon"],
-  correctAnswer: "Tony Stark"
- }, {
-  question: "What is the theme song of the last show binged by us?",
-  answers: ["Renaissance by", "", "", ""],
-  correctAnswer: "Mr.Belding"
- },{
-  question: "Which of the medical dramas did HK not ever binge",
-  answers: ["", "", "", ""],
-  correctAnswer: ""
- },{
-  question: "What is this image stating in sign language:",
-  answers: ["You're annoying", "I'm hungry", "I'm waiting", "You're cute"],
-  correctAnswer: "You're cute"
-}, {
-  question: "Mindy Kaling played Kelly Kapoor in the hit comedy The Office, What was the show she co-created centered around the life of a first generation Indian American?",
-  answers: ["H", "Always Be My Maybe", "Sluts in College", "Never Have I Ever"],
-  correctAnswer: "Never Have I Ever"
-},{
-  question: "Which is one of HK's favorite colors?",
-  answers: ["Purple", "Green", "Black", "Orange", "Pink"],
-  correctAnswer: "Purple"
-}, {
-  question: "Only a warm July day, the capital of which state was HK born in?",
-  answers: ["New Jersey, US", "Illinois,US", "California,US", "Connecticut,US", "Uttar Pradesh, IN"],
-  correctAnswer: "Connecticut,US"
-}, {
-  question: "What is the name of Tony Stark's building that the team uses as head-quarters?",
-  answers: ["Camp Hammond", "Iron Tower", "Stark Tower", "S.H.I.E.L.D"],
-  correctAnswer: "Stark Tower"
-},{
-  question: "Which of the locations did were some great kisses had?",
-  answers: ["McGills Pub", "Casa de AB", "That Bar in the UWS", "That time before CLE", "All of the Above"],
-  correctAnswer: "Stark Tower"
-},{
-  question: "newark native",
-  answers: ["The Flash", "Arrow", "Green Lantern", "Batman"],
-  correctAnswer: "Green Lantern"
-}, {
-  question: "ohio native",
-  answers: ["The Flash", "Arrow", "Green Lantern", "Batman"],
-  correctAnswer: "Green Lantern"
-}, {
-  question: "musesum art science",
-  answers: ["The Flash", "Arrow", "Green Lantern", "Batman"],
-  correctAnswer: "Green Lantern"
-}, {
-  question: "who is the coolest most awesome",
-  answers: ["The Flash", "Arrow", "Green Lantern", "Batman"],
-  correctAnswer: "Green Lantern"
-},{
-  question: "kal penn",
-  answers: ["The Flash", "Arrow", "Green Lantern", "Batman"],
-  correctAnswer: "Green Lantern"
-}, 
-{
-  question: "piano",
-  answers: ["The Flash", "Arrow", "Green Lantern", "Batman"],
-  correctAnswer: "Green Lantern"
-},
-{
-  question: "superbowl",
-  answers: ["The Flash", "Arrow", "Green Lantern", "Batman"],
-  correctAnswer: "Green Lantern"
-}, {
-  question: "sweet cussings",
-  answers: ["The Flash", "Arrow", "Green Lantern", "Batman"],
-  correctAnswer: "Green Lantern"
-},{
-  question: "love languages",
-  answers: ["The Flash", "Arrow", "Green Lantern", "Batman"],
-  correctAnswer: "Green Lantern"
-},
-
-finite games 
-
-];
+  image:"assets/images/17.jpg"
+}];
 
 
 
@@ -169,13 +166,11 @@ var game = {
     clearInterval(timer);
 
     panel.html('<h2>All done, heres how you did!</h2>');
-    panel.html('<h2>You get first place! You can collect your reward when you show this screenshot and see HK next;)</h2>');
     $('#counter-number').html(game.counter);
     panel.append('<h3>Correct Answers: ' + game.correct + '</h3>');
     panel.append('<h3>Incorrect Answers: ' + game.incorrect + '</h3>');
     panel.append('<h3>Unanswered: ' + (questions.length - (game.incorrect + game.correct)) + '</h3>');
     panel.append('<br><button id="start-over">Start Over?</button>');
-
   },
   clicked: function(e) {
     clearInterval(timer);
@@ -191,7 +186,7 @@ var game = {
     clearInterval(timer);
     panel.html('<h2>Nope!</h2>');
     panel.append('<h3>The Correct Answer was: ' + questions[game.currentQuestion].correctAnswer + '</h3>');
-    ;
+    panel.append('<img src="' + questions[game.currentQuestion].image + '" />');
 
     if (game.currentQuestion === questions.length - 1){
       setTimeout(game.results, 3 * 1000);
@@ -203,6 +198,7 @@ var game = {
     clearInterval(timer);
     game.correct++;
     panel.html('<h2>Correct!</h2>');
+    panel.append('<img src="' + questions[game.currentQuestion].image + '" />');
 
     if (game.currentQuestion === questions.length - 1){
       setTimeout(game.results, 3 * 1000);
