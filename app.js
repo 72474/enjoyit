@@ -57,7 +57,7 @@ var questions = [{
   correctAnswer: "House",
   image:"assets/images/5.jpg"
  },{
-  question: "Mindy Kaling played Kelly Kapoor in the hit comedy 'The Office'. What was the show she co-created centered around the life of a first generation Indian American?",
+  question: "Mindy Kaling played Kelly Kapoor in the hit comedy 'The Office'. What was the show she co-created centered around the life representing a first generation Indian American?",
   answers: ["Convenience", "Always Be My Maybe", "Sex Lives of College Girls", "Never Have I Ever"],
   correctAnswer: "Never Have I Ever", 
   image:"assets/images/7.jpg"
@@ -122,8 +122,8 @@ var questions = [{
   correctAnswer: "Atlantic City",
   image:"assets/images/18.jpg",
 },{
-  question: "BONUS: HK has explored a handful of cities. Which of these cities that she visited has a museum dedicated to AB's favorite painter?",
-  answers: ["Paris", "New York", "Sydney", "Amsterdam", "Montreal"],
+  question: "BONUS: HK has curiously explored a handful of cities. Which of these cities that she visited has a museum dedicated to AB's favorite painter?",
+  answers: ["Paris", "Delhi", "Sydney", "Amsterdam", "Montreal"],
   correctAnswer: "Amsterdam",
   image:"assets/images/19.jpg",
 },];
