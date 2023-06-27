@@ -97,13 +97,13 @@ var questions = [{
   correctAnswer: "California Academy of Sciences",
   image:"assets/images/13.jpg"
 }, {
-  question: "When will HK get to whisper (or slightly yell) sweet <s>nothings</s> cussings in AB's ear, as promised? (may be met with a reward)",
-  answers: ["Not Tomorrow", "Maybe The Next day", "Or the day after that", "Whenever HK wants:)"],
-  correctAnswer: "Whenever HK wants:)",
+  question: "When will HK get to whisper (or slightly yell) sweet <s>nothings</s> cussings in AB's ear, as promised? (also may be met with a reward)",
+  answers: ["Not Tomorrow", "Maybe The Next day", "Or the day after that", "Whenever HK wants and AB can:)"],
+  correctAnswer: "Whenever HK wants and AB can:)",
   image:"assets/images/16.jpg"
 },{
   question: "A lead chracter in one of HK's favorite comedy movies also authored which of the following books?",
-  answers: ["<i>Why Not Me?<i>", "<i>Are You Serious?<i>", "<i>I Was Kidding<i>","<i>Why Are You Like This<i>"],
+  answers: ["<i>Why Not Me?<i>", "<i>Are You Serious?<i>","<i>Why Are You Like This<i>", "<i>I Was Kidding<i>"],
   correctAnswer: "<i>Are You Serious?<i>",
   image:"assets/images/15.jpg"
 },{
@@ -122,7 +122,7 @@ var questions = [{
   correctAnswer: "Atlantic City",
   image:"assets/images/18.jpg",
 },{
-  question: "BONUS: HK has explored a handful of cities. Which of these cities that she visited has museum dedicated to AB's favorite painter",
+  question: "BONUS: HK has explored a handful of cities. Which of these cities that she visited has a museum dedicated to AB's favorite painter?",
   answers: ["Paris", "New York", "Sydney", "Amsterdam", "Montreal"],
   correctAnswer: "Amsterdam",
   image:"assets/images/19.jpg",
