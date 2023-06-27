@@ -1,0 +1,86 @@
+
+html, body{
+  height:90%;
+ margin: 20px;
+ margin-bottom: 15px
+
+}
+
+body{
+  font-family: 'Indie Flower', cursive;
+  color:purple;
+  background-color: black;
+  text-align: center;
+}
+
+#wrapper{
+  margin:2.5% auto;
+  background-color: transparent;
+  width:900px;
+  height: 75%;
+  box-sizing: border-box;
+}
+
+#subwrapper{
+  position: relative;
+  top:5%;
+}
+button{
+  display:block;
+  width:50%;
+  height:50%;
+  margin: 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  color:#20d1ac;
+  font-size: 32px;;
+}
+
+img{
+  height:200px;
+  border-radius: 10%
+}
+
+h1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 6.5em;
+  font-weight: bold;
+  padding-top: 2.5%;
+}
+
+h2{
+  font-family: 'Indie Flower', cursive;
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-family: 'Indie Flower', cursive;
+  color:#7d35fc;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+h4{
+  font-family: 'Indie Flower', cursive;
+  color:#6cf8e1;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+h6{
+  color:#e66464;
+}
+
+#start{
+  margin-top: 10%;
+  border:2px #8a2be2;
+  background: #0b5e55;
+}
+
+
+
+button:hover {
+  border:2px #141932;
+  background: #e66464;
+}
