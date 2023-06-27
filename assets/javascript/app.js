@@ -19,7 +19,7 @@ $(document).on('click', '.answer-button', function(e) {
 });
 
 $(document).on('click', '#start', function(e) {
-  $('#subwrapper').prepend('<h4>Time Remaining: <span id="counter-number">30</span> Seconds</h4>');
+  $('#subwrapper').prepend('<h3>Time Remaining: <span id="counter-number">30</span> Seconds</h3>');
   game.loadQuestion();
 });
 
@@ -37,7 +37,7 @@ var questions = [{
   correctAnswer: "Soccer", 
   image:"assets/images/1.jpg"
 },{
-  question: "Andrew has Greek origins of the word for man, like Harika is derived from Sanskrit word for charm, among other origins. WHich language does the latter directly translate to the mean 'wonderful'",
+  question: "As Andrew has Greek origins of the word for man, Harika is derived from Sanskrit word for charm, among other origins. In which language does the latter directly translate to the mean 'wonderful'?",
   answers: ["Hindi", "Italian", "Turkish", "Arabic",],
   correctAnswer: "Turkish",
   image:"assets/images/2.jpg"
@@ -52,16 +52,11 @@ var questions = [{
   correctAnswer: "Cristobal Tapia De Vee",
   image:"assets/images/4.jpg"
  },{
-  question: "The first medical drama to air on television was called 'City Hospital'. Which of the medical dramas did HK not ever binge?",
-  answers: ["The Good Doctor", "Grey's Anatomy", "Chicago Med", "House"],
+  question: "The first medical drama to air on television was called 'City Hospital'. Which of these medical dramas did HK never see?",
+  answers: ["The Good Doctor", "Grey's Anatomy", "Chicago Med", "House", "Scrubs"],
   correctAnswer: "House",
   image:"assets/images/5.jpg"
  },{
-  question: "Sign language was first introduced in 1817 in America. What is this image stating in sign language:",
-  answers: ["You're annoying", "I'm hungry", "I'm waiting", "You're cute"],
-  correctAnswer: "You're cute",
-  image:"assets/images/6.jpg"
-},{
   question: "Mindy Kaling played Kelly Kapoor in the hit comedy 'The Office'. What was the show she co-created centered around the life of a first generation Indian American?",
   answers: ["Convenience", "Always Be My Maybe", "Sex Lives of College Girls", "Never Have I Ever"],
   correctAnswer: "Never Have I Ever", 
@@ -72,17 +67,22 @@ var questions = [{
   correctAnswer: "Purple",
   image:"assets/images/8.jpg"
 },{
+  question: "Sign language was first introduced in 1817 in America. What is this image stating in sign language:",
+  answers: ["You're annoying", "I'm hungry", "I'm waiting", "You're cute"],
+  correctAnswer: "You're cute",
+  image:"assets/images/yourecute.png"
+},{
   question: "On a warm July day, the capital of which state was HK born in?",
   answers: ["New Jersey, US", "Illinois, US", "California, US", "Connecticut, US", "Uttar Pradesh, IN"],
   correctAnswer: "Connecticut, US",
   image:"assets/images/9.jpg"
 },{
   question: "Philematology is the science of kissing, which historically is thought to have originated from India. Which of the locations were some great kisses had?",
-  answers: ["McGills Pub", "Casa de AB", "That Bar in the UWS", "That time before CLE", "All of the Above"],
+  answers: ["McGills Pub", "That Bar in the UWS", "Casa de AB", "That time before CLE", "All of the Above"],
   correctAnswer: "All of the Above", 
   image:"assets/images/10.jpg"
 },{
-  question: "My Chemical Romance is a band from Newark, NJ. Who else from that area owned the building HK once had an apartment at?",
+  question: "My Chemical Romance is a band from Newark, NJ. Who else from that area owned the building HK once stayed at for a bit?",
   answers: ["Shaquille O'Neal", "Jon Bon Jovi", "Queen Latifah", "Michael B. Jordan"],
   correctAnswer: "Shaquille O'Neal",
   image:"assets/images/11.jpg"
@@ -91,33 +91,42 @@ var questions = [{
   answers: ["Captain America", "Arrow", "Ant-Man", "Hawkeye"],
   correctAnswer: "Ant-Man",
   image:"assets/images/12.jpg"
-}, {
+},{
   question: "On a personal favorite date night of HK, the MET was visited after hours. Which museum is HK's all time favorite?",
-  answers: ["MoMA", "Museum of Ice Cream", "California Academy of Science", "Smithsonian Air and Space Museum"],
-  correctAnswer: "California Academy of Science",
+  answers: ["MoMA", "Museum of Ice Cream", "California Academy of Sciences", "Smithsonian Air and Space Museum"],
+  correctAnswer: "California Academy of Sciences",
   image:"assets/images/13.jpg"
 }, {
-  question: "Who is the coolest, most awesome, fun, loyal adventurous human AB will have the pleasure of getting to know?;)",
-  answers: ["HK", "Harika", "Hari", "Any and all of the Above"],
-  correctAnswer: "Any and all of the Above",
-  image:"assets/images/14.jpg"
-},{
-  question: "A lead chracter in one of HK's favorite comedy movies also authored which of the following books?",
-  answers: ["The Flash", "Are You Serious?", "I Was Kidding", "Batman"],
-  correctAnswer: "Are You Serious?",
-  image:"assets/images/15.jpg"
-}, {
-  question: "When will HK get to whisper (or possibly little scream) sweet <s>nothings</> cussings in AB's ear, as promised? (also may be met with a reward)",
-  answers: ["Tomorrow", "The Next day", "Or the day after that", "Whenever HK wants"],
-  correctAnswer: "Whenever HK wants",
+  question: "When will HK get to whisper (or slightly yell) sweet <s>nothings</s> cussings in AB's ear, as promised? (may be met with a reward)",
+  answers: ["Not Tomorrow", "Maybe The Next day", "Or the day after that", "Whenever HK wants:)"],
+  correctAnswer: "Whenever HK wants:)",
   image:"assets/images/16.jpg"
 },{
-  question: "Author and talk show host, Dr. Gary Chapman discussed the concepts of the 5 love languages. ",
-  answers: ["", "", "", ""],
-  correctAnswer: "",
-  image:"assets/images/17.jpg"
-}];
-
+  question: "A lead chracter in one of HK's favorite comedy movies also authored which of the following books?",
+  answers: ["<i>Why Not Me?<i>", "<i>Are You Serious?<i>", "<i>I Was Kidding<i>","<i>Why Are You Like This<i>"],
+  correctAnswer: "<i>Are You Serious?<i>",
+  image:"assets/images/15.jpg"
+},{
+  question: "Who is the coolest, most awesome, fun, caring adventurous human AB will have the pleasure of getting to know? ;)",
+  answers: ["HK", "Harika", "Hari", "Any and all of the Above"],
+  correctAnswer: "Any and all of the Above",
+  image:"assets/images/14.gif"
+},{
+  question: "Author and talk show host, Dr. Gary Chapman discussed the concepts of the 5 love languages. How many languages can HK fluently speak? ",
+  answers: ["one", "two", "three", "four"],
+  correctAnswer: "two",
+  image:"assets/images/17.jpg",
+}, {
+  question: "David Blaine once held his breath underwater for 17 minutes. Which Jersey shore will you never find HK swimming in?",
+  answers: ["Belmar", "Atlantic City", "Wildwood", "Cape May"],
+  correctAnswer: "Atlantic City",
+  image:"assets/images/18.jpg",
+},{
+  question: "BONUS: HK has explored a handful of cities. Which of these cities that she visited has museum dedicated to AB's favorite painter",
+  answers: ["Paris", "New York", "Sydney", "Amsterdam", "Montreal"],
+  correctAnswer: "Amsterdam",
+  image:"assets/images/19.jpg",
+},];
 
 
 var game = {
@@ -165,7 +174,7 @@ var game = {
   results: function() {
     clearInterval(timer);
 
-    panel.html('<h2>All done, heres how you did!</h2>');
+    panel.html('<h2>All done, heres how you did!</h2><br><h2>You get first place! Ask HK how to collect your reward (may possibly include some new secrets)</h2>');
     $('#counter-number').html(game.counter);
     panel.append('<h3>Correct Answers: ' + game.correct + '</h3>');
     panel.append('<h3>Incorrect Answers: ' + game.incorrect + '</h3>');

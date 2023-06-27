@@ -1,11 +1,14 @@
 
 html, body{
   height:90%;
+ margin: 20px;
+ margin-bottom: 15px
+
 }
 
 body{
   font-family: 'Indie Flower', cursive;
-  color:lightgreen;
+  color:purple;
   background-color: black;
   text-align: center;
 }
@@ -29,9 +32,8 @@ button{
   margin: 0 auto;
   border:none;
   cursor: pointer;
-  border: green;
   background:transparent;
-  color:red;
+  color:#20d1ac;
   font-size: 32px;;
 }
 
@@ -54,20 +56,30 @@ h2{
 
 h3{
   font-family: 'Indie Flower', cursive;
-  color:lightgreen;
+  color:#7d35fc;
   font-size: 35px;
   margin-bottom: 10px;
 }
 
+h4{
+  font-family: 'Indie Flower', cursive;
+  color:#6cf8e1;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+h6{
+  color:#e66464;
+}
+
 #start{
   margin-top: 10%;
-  border:2px solid blue;
-  background: lightblue;
+  border:2px #8a2be2;
+  background: #0b5e55;
 }
 
 
 
 button:hover {
-  border:2px solid blue;
-  background: lightblue;
+  border:2px #141932;
+  background: #e66464;
 }
